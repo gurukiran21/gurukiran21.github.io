@@ -1,0 +1,29 @@
+/* ADD YOUR CUSTOM STYLES */
+html{
+    scroll-behavior: smooth;
+}
+.bg-navy , .btn-navy {
+    background-color: #23239f !important;
+}
+.text-navy {
+    color: #23239f !important;
+}
+.carousel .carousel-indicators li {
+    width: 40px;
+    height: 5px;
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 550px;
+}
+@media (max-width: 577px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
